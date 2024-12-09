@@ -8,3 +8,6 @@ todos = [
 ]
 def index(request):
     return render(request,"tasks/index.html",{"todos":todos})
+
+def add(request):
+    return render(request,"add/index.html")
