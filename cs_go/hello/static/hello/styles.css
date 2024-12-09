@@ -6,3 +6,48 @@ h1 {
 body {
     background: linear-gradient(135deg, #f093fb, #f5576c);
 }
+
+#signup {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 12px;
+    padding: 20px 30px;
+    font-size: 16px;
+    color:green;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    text-align: center;
+    font-family: sans-serif;
+
+}
+form {
+    text-align: center;
+}
+#login:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+
+}
+#signup:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+
+}
+
+
+#login {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 12px;
+    padding: 20px 30px;
+    font-size: 16px;
+    color:rgb(128, 9, 0);
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    text-align: center;
+    font-family: sans-serif;
+}

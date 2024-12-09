@@ -12,5 +12,13 @@
     {%else%}
     <h1>Hello World!</h1>
     {%endif%}
+    <form action="{% url 'newyear:newyear' %}">
+        {%csrf_token%}
+        <button id = "login" type="submit">LOGIN</button>
+    </form>
+    <form action="{% url 'newyear:newyear' %}">
+        {%csrf_token%}
+        <button  id = "signup" type="submit">SIGNUP</button>
+    </form>
 </body>
 </html>
