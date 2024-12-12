@@ -1,10 +1,11 @@
 {%extends "tasks/index.html"%}
 {%block  body%}
-<form action="">
-    <input type="text" name="task" id="new_task">
-    <input type="submit" id="submit">
+<form action="{% url 'tasks:add' %}" method="post">
+    {% csrf_token %}
+    {{task}}
 
-<a href="{%url 'tasks:index'%}">List tasks</a>
+    <input type="submit">
+<a href="{%url 'tasks:index' %}">List tasks</a>
 
 </form>
 {%endblock%}

@@ -4,6 +4,8 @@
         <h1>Tasks</h1>
         {%for i in todos%}
         <li>{{i}}</li>
+        {%empty%}
+        <p> NO TASKS </p>
         {%endfor%}
         <a href="{%url 'tasks:add'%}"> add tasks</a>
 
